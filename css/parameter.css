@@ -1,0 +1,47 @@
+.modifierButton{
+    text-align:center;
+}
+.navbar{
+    border:2px solid #58468C ;
+    margin:0%;
+    padding:0%;   
+    /* border-radius:8px; */
+    /* border-color: #58468C; */
+}
+.passwordInput{
+    border-left:none;
+    border-right:none;
+}
+.lableName{
+    size: 16px;
+}
+.active{
+    background-color:#58468C;
+    color: white;
+}
+.nav-pill{
+text-transform:none;
+}
+
+.navbar .active{
+    color:white !important;
+}
+
+.navTop> li:first-child{
+    size: 50px;
+    border-bottom-left-radius: inherit;
+    border-top-left-radius: inherit;
+}
+
+.navTop> li:last-child{
+    size: 50px;
+    margin:0%;
+    padding:0%;
+    border-bottom-right-radius: inherit;
+    border-top-right-radius: inherit;
+}
+.input-group{
+border: 1px solid orange;
+border-radius: 5px;
+
+}

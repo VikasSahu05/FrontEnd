@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+#search-logo{
+  /* border-right: 0px; */
+  border-right: 0px;
+  background-color: white;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom: 2px solid #58468c;
+  border-top: 2px solid #58468c;
+  border-left: 2px solid #58468c;
+  border-bottom: 2px solid #58468c;
+  color:#58468c;
+  /* margin-bottom: 27px; */
+}
+
+.search-input{
+  /* border-left: 0px;
+  border: 2px solid #58468c; */
+  border-left: 0px;
+  border-bottom: 2px solid #58468c;
+  border-top: 2px solid #58468c;
+  border-right: 2px solid #58468c;
+  border-bottom: 2px solid #58468c;
+  /* margin-bottom: 27px; */
+}
+.input-group{
+  margin-bottom: 20px;
+}
+.info-box-content-one{
+  box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+    border-radius: 0.25rem;
+    background-color: #58468c;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1rem;
+    min-height: 44px;
+     padding: .5rem;
+     position: relative;
+      width: 100%;
+ }
+
+#span-txt{
+  text-align: center;
+    width: 100%;
+    padding-top: 8px;
+    background-color: #58468c;
+    color: white;
+    border-radius: 4px;
+}
+#person-img{
+  margin-right: 10px;
+  float: left;
+  height: 65px;
+  width: 65px;
+  margin-left: 10px;
+  margin-top: 7px;
+}
+.msgpara{
+  font-size: 14px;
+}
+.imglogo{
+  margin-bottom: 23px;
+}
+.imglogo1{
+  margin-bottom: 23px;
+  width:15px;
+}
+.card-h6{
+  font-weight:bold;
+  margin-top:5px;
+}
+#btn-arrow{
+  padding-left: 5px;
+}
+.imglogo-chat{
+  margin-top: 10px;
+  margin-right:10px;
+}
+#chat-info-box{
+  box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+    border-radius: 0.25rem;
+    background-color: #fff;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: -1rem;
+    min-height: 44px;
+    /* padding: .5rem; */
+    position: relative;
+    width: 80%;
+    /* margin-left: 60px; */
+    margin: auto;
+    align-content: center;
+}
+#span-txt-chat{
+  text-align: center;
+    width: 100%;
+    font-size:15px;
+    padding-top: 10px;
+    background-color: #58468c;
+    color: white;
+    border-radius: 4px;
+}
+#btn-arrow-left{
+  margin-right: 15px;
+}
+#btn-arrow-right{
+  margin-left: 15px;
+}
+#left-arrow{
+  padding-left:5px;
+  padding-right:20px;
+}
+#chat-person-img{
+  margin-right:0px;
+  float: left;
+  height: 30px;
+  width: 30px;
+  margin-left:-10px;
+}
+.chatname{
+  font-size: 15px;
+}
+.chatmsg{
+  font-size: 13px;
+  color: grey;
+}
+.chatDate{
+  font-size: 12px;
+}
+#chat-body-img{
+  margin-right: 7px;
+  float: left;
+  height: 50px;
+  width: 50px;
+  margin-left:0px;
+  margin-top:5px;
+  margin-left: -18px;
+  margin-top: -9px;
+}
+#img-logo{
+  margin-bottom: 2px;
+  padding-right: 18px;
+}
+#input-chat-box{
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border: none;
+  padding-left: 0px;
+  margin-left: 2px;
+}
+#btn-img-logo{
+  padding-left:5px;
+  padding-right:10px;
+  padding-bottom: 5px;
+  padding-top: 2px;
+}
+#span-btn{
+  text-align: center;
+  width: auto;
+  /* padding-top: 5px; */
+  background-color: #58468c;
+  color: white;
+  border-radius: 4px;
+  display: flex;
+  /* padding-left: 123px; */
+  flex-direction: row;
+  margin-left: auto;
+  /* float: right; */
+  font-size: 16px;
+  padding-left: 5px;
+}
+#btn-share-left{
+  padding-right: 20px;
+}
+#msg-card:hover{
+  box-shadow: 0px 0px 23px #d2d4d7;
+
+}
+#person-msg-img{
+  margin-right: 9px;
+  float: left;
+  height: 56px;
+  width: 56px;
+  margin-left: 11px;
+  margin-top: 13px;
+}
+.dropdown-menu-lg {
+  max-width: 500px;
+  min-width: 280px;
+  padding: 0;
+  }
+  #span-msg-btn{
+    text-align: center;
+    width: 318px;
+    margin-right: 9px;
+    background-color: #58468c;
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    /* padding-left: 123px; */
+    flex-direction: row;
+    margin-left: 9px;
+    /* float: right; */
+    font-size: 16px;
+    padding-left: 46px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .card-h6{
+    color:#58468c;
+    font-weight: 100;
+    font-size: 15px;
+    margin-right: 8px;
+  }
+  #para-msg{
+    color: lightgrey;
+    font-size: 10px;
+  }
+  #chat-para{
+    padding-top: 10px;
+    color:black;
+    font-weight: 600;
+  }
+#input-img{
+  margin: -11px 6px -9px 5px;
+   height: 41px;
+}
+/* .fa-heart{
+  display: none;
+} */
+/* Media Query Start Here */
+@media only screen and (max-width: 768px) {
+  .btn-chat{
+    display: none;
+  }
+
+   }
+  /* TAB MEDIA QUERY END HERE  */
+

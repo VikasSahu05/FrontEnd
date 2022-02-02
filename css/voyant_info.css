@@ -1,0 +1,235 @@
+.user-info-tab>.nav-link {
+    background-color: #fff;
+    border: 2px solid #58468C!important;
+    color: #58468C!important;
+    font-weight: 600;
+    width: 140px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: .5rem;
+}
+
+.user-info-tab>.nav-link.active {
+    background-color: #58468C;
+    color: #fff!important;
+}
+
+.div-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-avatar {
+    height: 100px;
+    width: 120px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 10px;
+}
+
+.img-avatar>img {
+    height: 100px;
+    object-fit: cover;
+    width: 100px;
+    border: 5px solid #58468C;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.img-avatar>.icon {
+    position: absolute;
+    top: 60%;
+    right: 8%;
+    background: #58468C;
+    color: #fff;
+    padding: 7px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.fw-bold {
+    font-weight: 600;
+}
+
+.form-label {
+    color: #58468C;
+}
+
+.bg-form,
+.bg-form:focus {
+    background-color: #EEF5FF;
+    border: none;
+}
+
+.img-flag {
+    height: 25px;
+    width: 35px;
+    object-fit: cover;
+    vertical-align: bottom;
+    padding: 3px;
+}
+
+.option-text {
+    vertical-align: text-bottom;
+}
+
+.option-middle {
+    vertical-align: middle;
+}
+
+.select2-selection__choice {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color: #58468C!important;
+    border-radius: 6px!important;
+}
+
+.select2-selection__choice>.select2-selection__choice__remove {
+    padding-left: 1rem;
+    color: #fff !important;
+}
+
+.select2-selection,
+.select2 {
+    background-color: #EEF5FF!important;
+    border: none!important;
+    min-height: calc(2.25rem + 2px);
+}
+
+.select2-selection__clear {
+    font-size: 21px;
+    font-weight: 700!important;
+    margin-top: 0!important;
+}
+
+.w-40 {
+    width: 40%!important;
+}
+
+.w-60 {
+    width: 58%!important;
+}
+
+.select2-selection--single {
+    padding-left: 0!important;
+    padding-right: 0!important;
+    padding-bottom: 0!important;
+    height: 100%!important;
+}
+
+.select2-selection--single>.select2-selection__arrow {
+    top: 7px!important;
+}
+
+.card-info-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-info-content i,
+.card-info-content span {
+    color: #706D82;
+}
+
+.card-info-content.active i,
+.card-info-content.active>span {
+    color: #31AC30;
+}
+
+.card-info-content .fa-check {
+    display: none;
+}
+
+.card-info-content.active .fa-check {
+    display: inline;
+}
+
+.card-info-title {
+    height: 20px;
+    overflow: hidden;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.mt-8-minus {
+    margin-top: -8px;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly!important;
+}
+
+.primary-color {
+    color: #58468C!important;
+}
+
+.info-radio {
+    background: #706D82;
+    text-align: center;
+    padding: 2px;
+    width: 60px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.info-radio>i {
+    display: none;
+}
+
+.input-radio:checked~.info-radio {
+    background: #31AC30;
+}
+
+.input-radio:checked~.info-radio>i {
+    display: inline;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.btn-purpal,
+.btn-purpal:hover {
+    color: #fff;
+    background-color: #58468c;
+    border-color: #58468c;
+    box-shadow: none;
+    font-weight: 600;
+}
+
+.outline-red,
+.outline-red:hover {
+    color: #F34541;
+    background-color: transparent;
+    border-color: #F34541;
+    box-shadow: none;
+    font-weight: 600;
+}
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {}
+
+
+/* // Small devices (landscape phones, less than 768px) */
+
+@media (max-width: 767.98px) {}
+
+
+/* // Medium devices (tablets, less than 992px) */
+
+@media (max-width: 991.98px) {}
+
+
+/* // Large devices (desktops, less than 1200px) */
+
+@media (max-width: 1199.98px) {}

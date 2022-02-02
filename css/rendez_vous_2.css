@@ -1,0 +1,81 @@
+/* .headerButton{
+    float: right;
+} */
+
+.tableHead{
+    border-top: none;
+}
+.dataTable {
+    border-spacing: 0 0.9rem!important;
+    border-radius: 8px;
+}
+#datatable_paginate > a > i{
+    color:#58468C;
+}
+.datatable-info{
+	display: flex;
+	justify-content: end;
+    margin-bottom:10px;   
+}
+.dataTables_length{
+	padding-top: 10px;
+	margin-left: 10px;
+}
+
+.dataTables_length > label{
+	margin-bottom: 0;
+}
+.dataTable > thead > tr >th{
+    font-size:18px;
+    width:fit-content;
+}
+    .dataTable > tbody > tr > td:first-child{
+        
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    .dataTable > tbody > tr > td:last-child{
+       
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .dataTable > tbody > tr{
+        text-align: center;
+        font-size: 13px;
+     border-top: none;  
+    } 
+    .dataTable > thead > tr >th{
+        text-align: center;
+    }
+    .dataTable > tbody > tr >td{
+        text-align: center;  
+    }
+    /* .calendarContent{
+
+        width:fit-content;
+        padding:5px 20px;
+        border-radius: 5px 0px 0px 5px;
+        box-shadow: 0px 0px 10px #58468c;
+    } */
+    .inputGroup {
+        border: 2px solid #EACD92 !important;
+        border-radius:4px;
+        height: 32px;
+    }
+    .calendar{
+        border-radius: 8px;
+        height: 33px;
+    }
+    .calendarImg{
+        border-radius: 0px 4px 4px 0px; 
+        background-color: #58468C;
+    } 
+    .inputText{
+        width: 150px;
+        border: none;
+        text-align: left;   
+    }
+    .calendarDiv {
+        width: auto;
+    }
+

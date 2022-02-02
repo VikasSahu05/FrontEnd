@@ -1,0 +1,52 @@
+.chat-btn{
+  padding-top: 5px;
+    padding-left: 11px;
+    background-color: #58468c;
+    border-radius: 5px;
+    margin-left: 18px;
+    color:white;
+}
+.chat-btn-red{
+  border-radius: 5px;
+  font-size: 13px;
+  margin-top: 15px;
+}
+.outgoing-chat{
+  background-color: #58468c;
+  color: white;
+  border: none;
+}
+.direct-chat-text::after, .direct-chat-text::before {
+  display: none;
+}
+.btn-red{
+  margin-top: 47px;
+}
+.card-content{
+  box-shadow: none;
+}
+.chat-img{
+  margin-top: -41px;  
+}
+.incoming-chat{
+  background-color: rgb(233 236 239);
+  border: none;
+}
+#in-progress-icon{
+  width:25px;
+  height: 25px;
+}
+.send-image{
+  border-radius: 10px ;
+  height: 100px;
+}
+
+
+@media only screen and (min-width: 768px ) and ( max-width: 992px) {
+  .card-content{
+    font-size: 20px;
+  }
+}
+/* Slider css start here */
+
+/* Slider css End here */

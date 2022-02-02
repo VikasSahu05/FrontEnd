@@ -1,0 +1,43 @@
+.tabActive{
+  background-color: #58468C;
+  color: #FFFFFF!important;
+  }
+  .tabInActive{
+    color:#58468C
+  }
+ .topTab{
+   border:2px solid #58468C;
+ }
+ a:first-child {
+   border-top-left-radius: 5px;
+   border-bottom-left-radius:5px;
+ }
+ a:hover{
+     color:#58468C
+ }
+ a:last-child {
+   border-top-right-radius: 5px;
+   border-bottom-right-radius:5px;
+ }
+/* Media Query Start Here */
+@media only screen and (max-width: 768px) {
+  /* TAB MEDIA QUERY START HERE  */
+  a:first-child {
+     border-top-left-radius: 5px;
+     border-top-right-radius:5px;
+     border-bottom-left-radius:0px ;
+   }
+   a:last-child {
+     border-bottom-left-radius: 5px;
+     border-bottom-right-radius:5px;
+     border-top-right-radius: 0px;
+   }
+  }
+  /* TAB MEDIA QUERY END HERE  */
+ @media only screen and (max-width: 768px) {
+  /* TAB MEDIA QUERY START HERE  */
+a:nth-child(even) {
+  border-top:none;
+  border-bottom:2px solid #58468C;
+  }
+}

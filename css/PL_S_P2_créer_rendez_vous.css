@@ -1,0 +1,20 @@
+.hour{
+    margin-top: 2px;
+font-size: 12px;
+}
+.minute{
+    font-size:12px;
+    margin-top: 2px;
+    width: 50px;
+}
+.dropdown{
+    size: 50px;
+}
+#dropdownMenuButton{
+    height:30px;
+    width: 50px;
+
+}
+.dureeDiv{
+    width:auto;
+}

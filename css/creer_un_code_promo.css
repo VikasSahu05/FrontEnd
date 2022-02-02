@@ -1,0 +1,20 @@
+.bg-form,
+.bg-form:focus {
+    background-color: #EEF5FF;
+    border: none;
+}
+.custom-radio .custom-control-label::before {
+    border-radius: 50%;
+    background-color: 
+    #58468C;
+}
+.custom-radio input:checked ~ .custom-control-label::after {
+    border-radius: 50%;
+    background-color: #58468C;
+}
+.card-width{
+    width: 100% !important;
+}
+.card-icon{
+    float: right;
+}

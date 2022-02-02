@@ -1,0 +1,12 @@
+#strong-txt-admin{
+  font-weight: bold;
+    font-size: 15px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    color: #141414;
+    margin-top: 52px;
+}
+.btn-lg{
+  color: #58468c;
+  box-shadow: 1px 1px 6px 0px;
+}

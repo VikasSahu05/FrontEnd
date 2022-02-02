@@ -1,0 +1,72 @@
+/* .dataTables_length{
+    border:none;
+} */
+
+
+/* select[name="datatable_length"]{
+    border:none;
+} */
+
+
+/* .dataTables_length label {
+    color: red;
+} 
+
+#datatable {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#datatable tr {
+    border: 1px solid rgb(231, 30, 30);
+}
+
+#datatable th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 575px) {
+    #datatable {
+        border: 0;
+        background-color: #F9E2E8;
+    }
+    #datatable caption {
+        font-size: 1.3em;
+    }
+    #datatable thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+    #datatable tr {
+        border-bottom: solid rgb(248, 48, 48);
+        display: block;
+        margin-bottom: .625em;
+    }
+    td {
+        border-bottom: 1px solid;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
+    #datatable td::before {
+        /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+        content: attr(data-label);
+        float: right;
+        border: 1;
+        text-transform: uppercase;
+    }
+    #datatable td:last-child {
+        border-bottom: 0;
+    }
+}*/

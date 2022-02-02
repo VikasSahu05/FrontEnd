@@ -1,0 +1,37 @@
+.activeDanger > i , .activeDanger > span{
+    color:red
+}
+.activeDanger > .fa-check{
+    display:none
+}
+.card-info-content.activeDanger > span > .fa-check{
+    display:inline;
+    color:red
+}
+img.modificationVoyantImgSection {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border:5px solid #6B5D86
+}   
+.voyantSection{
+    top:-7%;
+    left:50%;
+    transform:translateX(-50%);
+}
+.match{
+    color:black!important;
+}
+.unMatchRed > div >  i , .unMatchRed > div  > span, .unMatchRed >.inputForm{
+    color:red!important;
+}
+.unMatchGreen > div >  i , .unMatchGreen > div  > span, .unMatchGreen >.inputForm{
+    color:green!important
+}
+#exampleFormControlTextarea1{
+    resize:none;
+    margin-top: 17px;
+}
+.card-shadow{
+    box-shadow: none;
+}

@@ -1,0 +1,42 @@
+.voice-bar{
+    background-color: white!important;
+    border-radius: 5px;
+    box-shadow: 0px 4px 20px #afa7c8;
+}
+.voice-bar-progress{
+    background: #B1ABD9!important;
+}
+audio::-webkit-media-controls-panel {
+    background:white;
+  }
+.btn-play{
+    border: 1px;
+    background-color: #58468C;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.card-shadow{
+    box-shadow: 0px 4px 20px #afa7c8;
+}
+.outgoing-chat{
+    background-color: #58468c;
+    color: white;
+    border: none;
+  }
+  .incoming-chat{
+    background-color: rgb(233 236 239);
+    border: none;
+  }
+  .msg-time{
+      font-size: 10px;
+  }
+  .Voir-le-tchat{
+    overflow-y: scroll;
+  }
+  .Voir-le-tchat::-webkit-scrollbar {
+    display: none;
+}
+  .Voir-le-tchat {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }

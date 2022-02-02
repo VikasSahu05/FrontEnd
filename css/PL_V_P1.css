@@ -1,0 +1,40 @@
+.nav-tabs{
+    border:solid 1px #58468c;
+    padding:0px;
+    margin: 0px;
+    margin-left: 8px;
+    border-radius: 5px;
+}
+.nav-tabs li{
+    padding: 0px;
+    border: solid 1px #58468c;
+    text-align: center;
+    cursor: pointer;
+}
+.activetab{
+    background-color: #58468c;
+    color:white ;
+    align-items: center;
+    padding: 5px;
+}
+.inactivetab{
+    color:#58468c;
+    background-color: white;
+    padding: 5px;
+    align-items: center;
+}
+.tabcontent{
+    display:none;
+}
+.tabcontent.active{
+    display: block;
+}
+@media only screen and (min-width: 650px )  and (max-width: 768px ) {
+    .table-view{
+        position: relative;
+        width: 258px;
+        height: 308px;
+        left: 250px;
+        top: 0px;
+    }
+}

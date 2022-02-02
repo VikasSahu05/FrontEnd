@@ -1,0 +1,185 @@
+/* TAB CSS START FROM HERE */
+.tabActive{
+  background-color: #58468C;
+  color: #FFFFFF!important;
+  }
+  .tabInActive{
+    color:#58468C
+  }
+ .topTab{
+   border:2px solid #58468C;
+ }
+ a:first-child {
+   border-top-left-radius: 5px;
+   border-bottom-left-radius:5px;
+ }
+ a:hover{
+     color:#58468C
+ }
+ a:last-child {
+   border-top-right-radius: 5px;
+   border-bottom-right-radius:5px;
+ }
+/* TAB CSS END FROM HERE */
+
+/* FIRST TAB SECTION CSS START HERE */
+.inputBorder{
+    border:1px solid #f3d089;
+    border-radius:0.25rem;
+}
+.inputField:focus{
+  border:1px solid #f3d089;
+}
+/* FIRST TAB SECTION CSS ENDS HERE */
+
+/* SECOND TAB SECTION CSS START HERE */
+.radioBtnInputGroup{
+    background:transparent;
+    border:none
+}
+.widthFitContent{
+    width:fit-content!important
+}
+.btn-purple{
+    background-color: #58468C;
+    color:white
+}
+.resend{
+    color:#58468C;
+}
+.barCodeCard{
+    width:50%;
+    margin:auto
+}
+.barCodeText{
+    background-color:#EEF5FF;
+    border:none
+}
+.btnDanger:hover{
+    background:transparent;
+    color:red
+}
+/* SECOND TAB SECTION CSS ENDS HERE */
+
+/* THIRD TAB SECTION CSS START HERE */
+/* ADDRESS FACTURATION SECTION START HERE */
+.btnlocation{
+  border: 1px solid #58468c;
+  color:#58468C;
+}
+.fa-map-marker-alt{
+  color:#58468C;
+}
+/* ADDRESS FACTURATION SECTION END HERE*/
+/* PAIMENTS DES START HERE */
+.cardMargintop{
+  margin-top: 81px;
+}
+/* PAIMENTS DES END HERE */
+
+/* THIRD TAB SECTION CSS ENDS HERE */
+
+/* FOURTH TAB SECTION CSS START HERE */
+
+/* FOURTH TAB SECTION CSS ENDS HERE */
+
+/* FIFTH TAB SECTION CSS START HERE */
+
+/* FIFTH TAB SECTION CSS ENDS HERE */
+
+ /* Media Query Start Here */
+ @media only screen and (max-width: 992px) {
+  /* TAB MEDIA QUERY START HERE  */
+  a:first-child {
+     border-top-left-radius: 5px;
+     border-top-right-radius:5px;
+     border-bottom-left-radius:0px ;
+   }
+   a:last-child {
+     border-bottom-left-radius: 5px;
+     border-bottom-right-radius:5px;
+     border-top-right-radius: 0px;
+   }
+  /* TAB MEDIA QUERY END HERE  */
+   /* FIRST TAB SECTION CSS START HERE */
+
+/* FIRST TAB SECTION CSS ENDS HERE */
+
+/* SECOND TAB SECTION CSS START HERE */
+
+/* SECOND TAB SECTION CSS ENDS HERE */
+
+/* THIRD TAB SECTION CSS START HERE */
+/* ADDRESS FACTURATION SECTION START HERE */
+   .btn-message{
+     border:0px;
+      background-color: red;
+      color: white;
+   }
+/* ADDRESS FACTURATION SECTION END HERE */
+
+/* THIRD TAB SECTION CSS ENDS HERE */
+
+/* FOURTH TAB SECTION CSS START HERE */
+
+/* FOURTH TAB SECTION CSS ENDS HERE */
+
+/* FIFTH TAB SECTION CSS START HERE */
+
+/* FIFTH TAB SECTION CSS ENDS HERE */
+ }
+ @media only screen and (min-width: 992px) {
+     /* TAB MEDIA QUERY START HERE  */
+   a:nth-child(even) {
+     border-right:none;
+     border-left:none
+   }
+   /* TAB MEDIA QUERY END HERE  */
+   /* FIRST TAB SECTION CSS START HERE */
+
+/* FIRST TAB SECTION CSS ENDS HERE */
+
+/* SECOND TAB SECTION CSS START HERE */
+
+/* SECOND TAB SECTION CSS ENDS HERE */
+
+/* THIRD TAB SECTION CSS START HERE */
+
+/* THIRD TAB SECTION CSS ENDS HERE */
+
+/* FOURTH TAB SECTION CSS START HERE */
+
+/* FOURTH TAB SECTION CSS ENDS HERE */
+
+/* FIFTH TAB SECTION CSS START HERE */
+
+/* FIFTH TAB SECTION CSS ENDS HERE */
+ }
+ @media only screen and (max-width: 992px) {
+     /* TAB MEDIA QUERY START HERE  */
+   a:nth-child(even) {
+     border-top:none;
+     border-bottom:none
+   }
+   /* TAB MEDIA QUERY END HERE  */
+   /* FIRST TAB SECTION CSS START HERE */
+
+/* FIRST TAB SECTION CSS ENDS HERE */
+
+/* SECOND TAB SECTION CSS START HERE */
+
+/* SECOND TAB SECTION CSS ENDS HERE */
+
+/* THIRD TAB SECTION CSS START HERE */
+
+/* THIRD TAB SECTION CSS ENDS HERE */
+
+/* FOURTH TAB SECTION CSS START HERE */
+
+/* FOURTH TAB SECTION CSS ENDS HERE */
+
+/* FIFTH TAB SECTION CSS START HERE */
+
+/* FIFTH TAB SECTION CSS ENDS HERE */
+ }
+ /* Media Query Ends Here */

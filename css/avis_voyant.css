@@ -1,0 +1,96 @@
+.xs-avatar{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-right: 8px;
+}
+
+.xs-avatar > img{
+	width: 100%;
+	border-radius: 50%;
+}
+
+.h-fit{
+    height: fit-content;
+}
+
+.green-bg{
+	background-color: #31AC30;
+	color:#fff;
+}
+
+.lh-1{
+	line-height: 1;
+}
+
+.review-star{
+	display: flex;
+	justify-content: center;
+	margin-top:1rem;
+}
+
+.review-star > i{
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+.flag-img{
+	height: 15px;
+	width: 20px;
+	object-fit: cover;
+}
+
+.primary-color{
+	color: #58468c!important;
+}
+
+.fw-bold{
+	font-weight: bold;
+}
+
+.v-center{
+	vertical-align: middle;
+}
+
+.btn-green, .btn-green:hover{
+	background-color: #31AC30;
+	color: #fff;
+	border-color: #31AC30;
+    box-shadow: none;
+    font-weight: 600;
+}
+
+.btn-purpal, .btn-purpal:hover{
+    color: #fff;
+    background-color: #58468c ;
+    border-color: #58468c;
+    box-shadow: none;
+    font-weight: 600;
+}
+
+.btn-red, .btn-red:hover{
+    color: #fff;
+    background-color: #F34541 ;
+    border-color: #F34541;
+    box-shadow: none;
+    font-weight: 600;
+}
+
+.card-btn-absolute{
+	position: absolute;
+	bottom: 1.2rem;
+	right: 1.2rem;
+}
+.avisVoyantBtn {
+    background-color: #58468C;
+    border-color: #58468C;
+}
+.avisVoyantCard{
+    background-color:#EEF5FF;
+}
+@media screen and (max-width:395px){
+	.xs-d-block{
+		position: unset;
+		margin-top: 0.5rem;
+	}
+}

@@ -1,0 +1,14 @@
+.demandeClientsNouveauWhite{
+    color:#58468C;
+}
+.messagePrecedants {
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: rebeccapurple;
+    box-shadow: 0px 4px 16px lightgrey;
+}
+.dateSection{
+    font-weight: bold;
+    color: rebeccapurple;
+}

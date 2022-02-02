@@ -1,0 +1,77 @@
+/* Left navbar links  */
+.modePause{
+    font-size:12px;
+    height:10px;
+}
+.modePauseDivision{
+    padding-top:3px;
+    border-radius:4px;
+
+    /* padding-top:3px!important */
+
+}
+.helloUser{
+    padding:0%;
+    font-size:10px;
+    margin-top:20px;
+    position:auto;
+}
+.buttonSuccess{
+    padding:0%;
+   height:auto;
+   width:fit-content;
+   margin-left:10px;
+   margin-top:0%;
+   margin-bottom:4%;
+    font-size:10px;
+}
+.imageUser{
+
+    width:37px;
+    height:37px;
+
+}
+.iconSize{
+    margin-top:15px;
+    width:20px;
+    height:20px;
+}
+ /* <------------------------------------------>  */
+ #dropdown{
+  box-shadow: 1px 0px 25px #8b8686;
+  height: auto;
+  border: none;
+}
+#msg-card{
+  box-shadow: none;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  margin-right: 9px;
+  margin-left: 9px;
+  height: 80px;
+}
+.card-h6{
+  font-weight:bold;
+  margin-top:5px;
+}
+#profile-menu{
+  box-shadow: 1px 0px 25px #8b8686;
+  height: 260px;
+  border: none;
+  margin-right:38px;
+
+  }
+#profile-list{
+  box-shadow: none;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  height: 100%;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+#profile-fun{
+  width: 123px;
+}
+/* <-----------------------------------------------------> */
