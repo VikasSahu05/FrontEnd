@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PL_M_P4 // commandes du client</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Tempusdominus Bootstrap 4 -->
+    <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- JQVMap -->
+    <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <!-- Daterange picker -->
+    <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+    <!-- summernote -->
+    <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+    <!-- custom plugin -->
+    <link rel="stylesheet" href="dist/css/avis.css">
+    <!-- datatable -->
+    <link rel="stylesheet" href="dist/datatable/css/jquery.dataTables.min.css">
+    <!-- datatable -->
+    <link rel="stylesheet" href="dist/datatable/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="file:///E:/gitProjects/wazoom_Pef/build/css/bootstrap.min.css">
+    <link rel="stylesheet" href="file:///E:/gitProjects/wazoom_Pef/build/js/bootstrap.min.js">
+    <link rel="stylesheet" href="dist/css/adminlte.css">
+    <link rel="stylesheet" href="dist/css/topMenu.css">
+    <link rel="stylesheet" href="dist/css/ma_messagerie.css">
+    <link rel="stylesheet" href="dist/css/DemandeClient.css">
+    <link rel="stylesheet" href="dist/css/accueil_voyant.css">
+    <link rel="stylesheet" href="dist/css/parameters.css">
+   
+</head>
+
+<body class="hold-transition sidebar-mini layout-fixed">
+    <div class="wrapper">
+        <ul class="nav nav-pills nav-sidebar flex-column mt-1" data-widget="treeview" role="menu" data-accordion="false"></ul>
+        <a class="" data-widget="pushmenu" href="#" role="button mb-5">
+            <div class=" float-right pr-3 bar-div">
+                <i class="fas fa-bars md-bars d-block d-sm-block d-lg-none"></i>
+            </div>
+            <img src="dist/img/logo-esteban-frederic.png" class="logo d-none d-md-block d-lg-none w-25 h-25 mx-auto mt-0" aria-hidden="true">
+            <a class="d-block d-sm-none">
+                <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class=" imageUser img-size-80 w-5 h-5 img-circle ml-4 mt-2">
+                <span><b class="col-12 text-dark">Bonjour, Esteban</b></span>
+            </a>
+
+        </a>
+
+        </ul>
+        <!-- Navbar -->
+        <div class="px-4 d-none d-sm-block">
+            <nav class="main-header navbar navbar-expand navbar-white navbar-light h-10">
+                <!-- Left navbar links -->
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link btn-default w-60 h-60 text-white  modePauseDivision mt-2" style="background-color:#58468c;box-shadow:0px 2px 8px lightgrey" data-widget="playmood" href="#" role="button">
+                            <div class="row">
+                                <div class="col-3 playButton d-flex align-items-center">
+                                    <i class="fas iconPlay fa-play fa-1x"></i>
+                                </div>
+                                <div class="col-9">
+                                    <div class="modePause ">
+                                        <span>Mode pause</span>
+                                    </div>
+                                    <div class="time">
+                                        <strong>08:52:12</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <!-- Right navbar links -->
+                <ul class="navbar-nav ml-auto">
+
+                    <!-- Notifications Dropdown Menu -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link mt-3" data-toggle="dropdown" href="#">
+                            <img src="dist/img/bell.svg" class="iconSize">
+                            <!-- <i class="far fa-bell  text-purple iconSize "></i> -->
+                            <span class="badge  badge-pill navbar-badge mt-3 mr-2 text-white" style="background-color:#F34541"><b>6</b></span>
+                        </a>
+                    </li>
+
+                    <!-- Message Search -->
+                    <li class="nav-item">
+                        <a class="nav-link mt-3" href="#" role="button">
+                            <img src="dist/img/email.svg" class="iconSize">
+                            <!-- style="color:#58468c;" -->
+                            <!-- <i class="fas fa-envelope msgIcon fa-1x text-white" ></i> -->
+                            <span class="badge badge-danger badge-pill navbar-badge mt-3 mr-1" style="background-color:#F34541;"><b>5</b></span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " data-widget="fullscreen" href="#">
+                            <div class=" helloUser h-auto col-md-2 mt-3">
+                                Bonjour,<strong>Esteban</strong>
+                            </div>
+                        </a>
+                        <a class="buttonSuccess  nav-link btn btn-success  h-auto text-white  align-text-top" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+                                En ligne <span class="fas fa-chevron-down fa-1x ml-1 "></span>
+                            </a>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <!-- <a class="nav-link btn-large-user-circle" data-widget="control-sidebar" data-slide="true" href="#" role="button"> -->
+                        <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class=" imageUser img-size-50 w-5 h-5 img-circle ml-1 mr-3 mt-4">
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+        <!-- /.navbar -->
+        <!-- Preloader -->
+
+        <div class="preloader flex-column justify-content-center
+                align-items-center">
+            <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+        </div>
+
+        <!-- Navbar -->
+        <!-- /.navbar -->
+        <!-- Main Sidebar Container -->
+        <aside class="main-sidebar sidebar-light-primary elevation-4">
+            <!-- Sidebar -->
+
+            <div class="sidebar">
+                <a class="nav-link d-flex justify-content-end" data-widget="pushmenu" href="#" role="button"><i class="fas fa-arrow-left size-32 rounded text-white" id="abcd"></i></a>
+                <!-- Sidebar Menu -->
+                <div class="d-flex pl-3 mt-0">
+                    <img src="dist/img/logo-esteban-frederic.png" class="logo d-block d-sm-none w-75 h-50  pl-3 mt-1" aria-hidden="true">
+                </div>
+
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <p>
+                                    <img src="dist/img/home.png" alt=""> Accueil
+                                </p>
+                            </a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <img src="dist/img/phone.png" alt="">
+                                <p>
+                                    Appels
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="./index.html" class="nav-link">
+                                        <p>Téléphonique</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./index2.html" class="nav-link">
+                                        <p>Chat</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./index3.html" class="nav-link active">
+                                        <p>Service client</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <img src="dist/img/planning.png" alt="">
+                                <p>
+                                    Planning
+                                    <i class="fas fa-angle-left right"></i>
+
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="pages/layout/top-nav.html" class="nav-link">
+                                        <p>Voyants</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                                        <p>Service client</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <img src="dist/img/user.png" alt="">
+                                <p>
+                                    Rendez-vous
+                                </p>
+                            </a>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <img src="dist/img/user.png" alt="">
+                                    <p>
+                                        Voyance mails
+
+                                    </p>
+                                </a>
+
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <img src="dist/img/user.png" alt="">
+                                        <p>
+                                            Utilisateurs
+                                            <i class="fas fa-angle-left right"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="pages/forms/general.html" class="nav-link">
+                                                <p>Administrateurs</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="pages/forms/advanced.html" class="nav-link">
+                                                <p>Voyants</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="pages/forms/validation.html" class="nav-link">
+                                                <p>Validation</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <img src="dist/img/Support.png" alt="">
+                                        <p>
+                                            Support
+                                            <i class="fas fa-angle-left right"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="pages/tables/simple.html" class="nav-link">
+                                                <p>Demande clients</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="pages/tables/data.html" class="nav-link">
+                                                <p>Demande voyants</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="pages/calendar.html" class="nav-link">
+                                        <img src="dist/img/Commandes.png" alt="">
+                                        <p>
+                                            Commandes
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/gallery.html" class="nav-link">
+                                        <img src="dist/img/Consultant.png" alt="">
+                                        <p>
+                                            Consultations
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/kanban.html" class="nav-link">
+                                        <img src="dist/img/Abonnements.png" alt="">
+                                        <p>
+                                            Abonnements
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/kanban.html" class="nav-link">
+                                        <img src="dist/img/Comptabilite.png" alt="">
+                                        <p>
+                                            Comptabilité
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <img src="dist/img/Avis.png" alt="">
+                                        <p>
+                                            Avis
+                                            <i class="fas fa-angle-left right"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="pages/mailbox/mailbox.html" class="nav-link">
+                                                <p>Gestion des avis</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="pages/mailbox/compose.html" class="nav-link">
+                                                <p>Gestion des avis</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/kanban.html" class="nav-link">
+                                        <img src="dist/img/Reversements.png" alt="">
+                                        <p>
+                                            Reversements
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <img src="dist/img/Configuration.png" alt="">
+                                        <p>
+                                            Configuration
+                                            <i class="fas fa-angle-left right"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="pages/examples/invoice.html" class="nav-link">
+                                                <p>Créer une commande</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="pages/examples/profile.html" class="nav-link">
+                                                <p>Code promo</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="pages/examples/e-commerce.html" class="nav-link">
+                                                <p>Forfaits</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="pages/examples/projects.html" class="nav-link">
+                                                <p>Contenu</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="pages/examples/project-add.html" class="nav-link">
+                                                <p>Demandes de modifications voyants
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="pages/examples">
+                                                <p>Configuration du cabinet</p>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+
+                </nav>
+                <!-- /.sidebar-menu -->
+            </div>
+            <!-- /.sidebar -->
+        </aside>
+        <!-- Main Sidebar Container -->
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <!-- /.content-header -->
+
+            <!-- Main content -->
+            <section class="content ">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Commandes du client</h2>
+                        </div>
+                    </div> 
+                    <div class="row">
+                        <ul class="col-lg-6 col-md-12 col-sm-12 nav nav-tabs d-inline d-md-flex">
+                            <li class="justify-content-center  flex-fill"><div class="inactivetabheading">Informations</div></li>
+                            <li class="justify-content-center  flex-fill"><div  class="inactivetabheading">Consultations</div></li>
+                            <li class="justify-content-center  flex-fill"><div  class="activetabheading ">Commandes</div></li>
+                        </ul>                          
+                    </div>
+                        <div class="row mb-4">
+                            <div class="col-lg-12 col-md-12  ">
+                                <div class="calendar col-12 d-flex justify-content-end">
+                                    <div class="calendarContent d-flex align-items-center mt-3">
+                                        <div class="firstInput">
+                                            <input type="text" class="form-control firstInputBox" id="inlineFormInput" placeholder="25 Oct. 2019 de 11:30" style="height: 30px;">
+                                        </div>
+                                        <div class="rightArrowSection mx-3 d-none d-md-block">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </div>
+                                        <div class="firstInput">
+                                            <input type="text" class="form-control firstInputBox secondInputBox" id="inlineFormInput" placeholder="4 Nov. 2019 à 13h30" style="height: 32px;">
+                                        </div>
+                                    </div>
+                                    <div class="calendarImg d-flex justify-content-center align-items-center mt-3"><i class="far fa-calendar-alt "></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="table-responsive-sm table-responsive-md commandes-datatable">
+                                    <table id="datatable" class="w-100  border-0">
+                                        <thead>
+                                            <tr class="dataTable-row mt-1 ">
+                                                <th width="5%" class="color-primary border-0">Site</th>
+                                                <th width="20%" class="color-primary border-0 text-center">Date</th>
+                                                <th width="18%" class="color-primary border-0 text-center">Voyant</th>
+                                                <th width="18%" class="color-primary border-0 text-center">Client</th>
+                                                <th width="16%" class="color-primary border-0 text-centre">ID commande</th>
+                                                <th width="5%" class="color-primary border-0 text-left">Total</th>
+                                                <th width="18%" class="color-primary border-0"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="" id="commandesTablerow">
+                                            <tr class="" id="table_Row">
+                                                <td><button class="btn btn-purpal">EF</button></td>
+                                                <td>14/12/2020 à 15h45</td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <div class="img-avatar-xs d-flex">
+                                                            <img src="dist/img/user1-128x128.jpg" alt="user image">
+                                                        </div>
+                                                        <span class="align-self-center">Flavie Depi</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <div class="img-avatar-xs d-flex">
+                                                            <img src="dist/img/user1-128x128.jpg" alt="user image">
+                                                        </div>
+                                                        <span class="align-self-center">Jerome Bell</span>
+                                                    </div>
+                                                </td>
+                                                <td>612752</td>
+                                                <td><span class="text-purple"><strong>49 €</strong></span></td>
+                                                <td>Plus d’infos <i class="primary-color fas fa-plus"></i></td>
+                                            </tr>
+    
+                                            <tr class="text-center">
+                                                <td><button class="btn text-white " id="abcd">VA</button></td>
+                                                <td>14/12/2020 à 15h45</td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <div class="img-avatar-xs d-flex">
+                                                            <img src="dist/img/user1-128x128.jpg" alt="user image">
+                                                        </div>
+                                                        <span class="align-self-center">Flavie Depi</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <div class="img-avatar-xs d-flex">
+                                                            <img src="dist/img/user1-128x128.jpg" alt="user image">
+                                                        </div>
+                                                        <span class="align-self-center">Jerome Bell</span>
+                                                    </div>
+                                                </td>
+                                                <td>612752</td>
+                                                <td><span class="text-purple"><strong>49 €</strong></span></td>
+                                                <td>Plus d’infos <i class="primary-color fas fa-plus"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td><button class="btn btn-purpal">EF</button></td>
+                                                <td>14/12/2020 à 15h45</td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <div class="img-avatar-xs d-flex">
+                                                            <img src="dist/img/user1-128x128.jpg" alt="user image">
+                                                        </div>
+                                                        <span class="align-self-center">Flavie Depi</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <div class="img-avatar-xs d-flex">
+                                                            <img src="dist/img/user1-128x128.jpg" alt="user image">
+                                                        </div>
+                                                        <span class="align-self-center">Jerome Bell</span>
+                                                    </div>
+                                                </td>
+                                                <td>612752</td>
+                                                <td><span class="text-purple"><strong>49 €</strong></span></td>
+                                                <td>Plus d’infos <i class="primary-color fas fa-plus"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td><button class="btn btn-purpal">EF</button></td>
+                                                <td>14/12/2020 à 15h45</td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <div class="img-avatar-xs d-flex">
+                                                            <img src="dist/img/user1-128x128.jpg" alt="user image">
+                                                        </div>
+                                                        <span class="align-self-center">Flavie Depi</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <div class="img-avatar-xs d-flex">
+                                                            <img src="dist/img/user1-128x128.jpg" alt="user image">
+                                                        </div>
+                                                        <span class="align-self-center">Jerome Bell</span>
+                                                    </div>
+                                                </td>
+                                                <td>612752</td>
+                                                <td><span class="text-purple"><strong>49 €</strong></span></td>
+                                                <td>Plus d’infos <i class="primary-color fas fa-plus"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td><button class="btn btn-purpal">EF</button></td>
+                                                <td>14/12/2020 à 15h45</td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <div class="img-avatar-xs d-flex">
+                                                            <img src="dist/img/user1-128x128.jpg" alt="user image">
+                                                        </div>
+                                                        <span class="align-self-center">Flavie Depi</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <div class="img-avatar-xs d-flex">
+                                                            <img src="dist/img/user1-128x128.jpg" alt="user image">
+                                                        </div>
+                                                        <span class="align-self-center">Jerome Bell</span>
+                                                    </div>
+                                                </td>
+                                                <td>612752</td>
+                                                <td><span class="text-purple"><strong>49 €</strong></span></td>
+                                                <td>Plus d’infos <i class="primary-color fas fa-plus"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td><button class="btn btn-purpal">EF</button></td>
+                                                <td>14/12/2020 à 15h45</td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <div class="img-avatar-xs d-flex">
+                                                            <img src="dist/img/user1-128x128.jpg" alt="user image">
+                                                        </div>
+                                                        <span class="align-self-center">Flavie Depi</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <div class="img-avatar-xs d-flex">
+                                                            <img src="dist/img/user1-128x128.jpg" alt="user image">
+                                                        </div>
+                                                        <span class="align-self-center">Jerome Bell</span>
+                                                    </div>
+                                                </td>
+                                                <td>612752</td>
+                                                <td><span class="text-purple"><strong>49 €</strong></span></td>
+                                                <td>Plus d’infos <i class="primary-color fas fa-plus"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td><button class="btn btn-purpal">EF</button></td>
+                                                <td>14/12/2020 à 15h45</td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <div class="img-avatar-xs d-flex">
+                                                            <img src="dist/img/user1-128x128.jpg" alt="user image">
+                                                        </div>
+                                                        <span class="align-self-center">Flavie Depi</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <div class="img-avatar-xs d-flex">
+                                                            <img src="dist/img/user1-128x128.jpg" alt="user image">
+                                                        </div>
+                                                        <span class="align-self-center">Jerome Bell</span>
+                                                    </div>
+                                                </td>
+                                                <td>612752</td>
+                                                <td><span class="text-purple"><strong>49 €</strong></span></td>
+                                                <td>Plus d’infos <i class="primary-color fas fa-plus"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td><button class="btn btn-purpal">EF</button></td>
+                                                <td>14/12/2020 à 15h45</td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <div class="img-avatar-xs d-flex">
+                                                            <img src="dist/img/user1-128x128.jpg" alt="user image">
+                                                        </div>
+                                                        <span class="align-self-center">Flavie Depi</span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="d-flex">
+                                                        <div class="img-avatar-xs d-flex">
+                                                            <img src="dist/img/user1-128x128.jpg" alt="user image">
+                                                        </div>
+                                                        <span class="align-self-center">Jerome Bell</span>
+                                                    </div>
+                                                </td>
+                                                <td>612752</td>
+                                                <td><span class="text-purple"><strong>49 €</strong></span></td>
+                                                <td>Plus d’infos <i class="primary-color fas fa-plus"></i></td>
+                                            </tr>
+                                        </tbody>
+                                        <tfoot class="tablefooter">
+                                            <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>294€</td>
+                                                <td></td>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                    <!-- <div class="card text-purple "><strong class="mb-2 mt-2 text-right mr-5">294€</strong></div> -->
+                                </div>
+    
+                            </div>
+    
+                        </div>
+                </div>
+
+            </section>
+
+
+        </div>
+
+        <!-- /.content-wrapper -->
+    </div>
+    <!-- ./wrapper -->
+
+    <!-- jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- jQuery UI 1.11.4 -->
+    <script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+        $.widget.bridge('uibutton', $.ui.button);
+    </script>
+    <!-- Bootstrap 4 -->
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- ChartJS -->
+    <script src="plugins/chart.js/Chart.min.js"></script>
+    <!-- Sparkline -->
+    <script src="plugins/sparklines/sparkline.js"></script>
+    <!-- JQVMap -->
+    <script src="plugins/jqvmap/jquery.vmap.min.js"></script>
+    <script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+    <!-- jQuery Knob Chart -->
+    <script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+    <!-- daterangepicker -->
+    <script src="plugins/moment/moment.min.js"></script>
+    <script src="plugins/daterangepicker/daterangepicker.js"></script>
+    <!-- Tempusdominus Bootstrap 4 -->
+    <script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- Summernote -->
+    <script src="plugins/summernote/summernote-bs4.min.js"></script>
+    <!-- overlayScrollbars -->
+    <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="dist/js/adminlte.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="dist/js/demo.js"></script>
+    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+    <script src="dist/js/pages/dashboard.js"></script>
+    <!-- datatable -->
+    <script src="dist/datatable/js/jquery.dataTables.min.js"></script>
+    <!-- custom js -->
+
+    <script>
+        $(document).ready(function() {
+
+            var table = $('#datatable').DataTable({
+                "processing": true,
+                "dom": "<'row'<'col-sm-12'tr>>" +
+                    "<'row'<'col-sm-12 datatable-info'ilp>>",
+                "pagingType": "full",
+                "language": {
+                    "info": " _PAGE_ - _PAGES_",
+                    "paginate": {
+                        "first": '<i class="fas fa-angle-double-left"></i>',
+                        "previous": '<i class="fas fa-angle-left"></i>',
+                        "next": '<i class="fas fa-angle-right"></i>',
+                        "last": '<i class="fas fa-angle-double-right"></i>',
+                    }
+                },
+                "columnDefs": [{
+                    "targets": 6,
+                    "searchable": false,
+                    "sortable": false
+                }]
+            });
+
+            $('#minage, #maxage').keyup(function() {
+                table.draw();
+            });
+        });
+    </script>
+</body>

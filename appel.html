@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <!-- Theme style -->
+      <link rel="stylesheet" href="dist/css/adminlte.min.css">
+      <!-- overlayScrollbars -->
+      <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+      <link rel="stylesheet" href="dist/css/style.css">
+      <link rel="stylesheet" href="dist/css/chat.css">
+      <title>Appels</title>
+   </head>
+   <body style="background-color: #f4f6f9;">
+      <!-- /.control-sidebar -->
+      <!-- Content Wrapper. Contains page content -->
+      <!-- <div class="content-wrapper"> -->
+      <!-- Content Header (Page header) -->
+      <div class="content-header">
+         <div class="container">
+            <div class="row mb-2">
+               <div class="col-sm-6"></div>
+               <!-- /.col -->
+            </div>
+            <!-- /.row -->
+         </div>
+         <!-- /.container-fluid -->
+      </div>
+      <!-- /.content-header -->
+      <!-- Main content -->
+      <div class="content-wrapper">
+         <section class="content">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-6 col-12">
+                     <div class="card card-content">
+                        <div class="card-header border-0"></div>
+                        <div class="card-body">
+                           <div class="d-flex justify-content-center">
+                              <div class="img-fluid position-relative ">
+                                 <picture class="">
+                                    <img class="appelPage-Logo " src="dist/img/logo-esteban-frederic.png" alt="">
+                                 </picture>
+                              </div>
+                           </div>
+                           <div style="line-height: 40px;">
+                              <div class="d-flex justify-content-center mt-4">
+                                 <div>
+                                    <img class="appelUser-Logo" src="dist/img/user2.png"> <b>Fiche du client</b>
+                                 </div>
+                              </div>
+                              <div class="d-flex justify-content-center">
+                                 <div> <b>Client</b>
+                                    <span>Ralph</span>
+                                 </div>
+                              </div>
+                              <div class="d-flex justify-content-center">
+                                 <div> <b>Date de naissance</b>
+                                    <span>11/04/1987</span>
+                                 </div>
+                              </div>
+                              <div class="d-flex justify-content-center">
+                                 <div> <b class="">Sexe</b>
+                                    <img class="" src="dist/img/male-gender.png" alt=""> <span class=""> Homme</span>
+                                 </div>
+                              </div>
+                              <div class="d-flex justify-content-center mt-3">
+                                 <div>
+                                    <img class="" src="dist/img/shopping-cart.png" alt=""> <b> Informations de la commande</b>
+                                 </div>
+                              </div>
+                              <div class="d-flex justify-content-center">
+                                 <div> <b> ID de la commande</b>
+                                    <span> 99475</span>
+                                 </div>
+                              </div>
+                              <div class="d-flex justify-content-center">
+                                 <div> <b> ID de la consultation</b>
+                                    <span> 86321</span>
+                                 </div>
+                              </div>
+                              <div class="d-flex justify-content-center">
+                                 <div> <b> Forfait sélectionné</b>
+                                    <span> Forfait 30 mins</span>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- /.d-flex -->
+                        </div>
+                        <!-- /.card -->
+                     </div>
+                  </div>
+                  <!-- /.col-md-6 -->
+                  <div class="col-lg-6 col-12">
+                    <div class="card card-content" style="padding: 60px;" >
+                        <div class="card-header border-0">
+                        </div>
+                        <div class="card-body">
+                            <!-- /.d-flex -->
+                            <div class="d-flex justify-content-center mt-5 ">
+                                <img src="dist/img/chat_image_top.svg" class="rounded-circle" width="80" height="80">
+                            </div>
+                            <div class="text-center">
+                                <span><strong>Ralph Edwards</strong></span>
+                                <p>08:12</p>
+                            </div>
+                            <div class="d-flex flex-row justify-content-center mt-5">
+                                <span class="microphone mt-5">
+                                    <i class="fa fa-microphone mic"></i>
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.card -->
+                </div>
+                  <!-- /.card -->
+               </div>
+               <!-- /.col-md-6 -->
+               <div class="card card-content">
+                  <div class="card-header border-0">
+                     <div class="range-Header ">
+                        <div class="d-flex justify-content-between mb-3">
+                           <div class="p-2">Prévisionnel</div>
+                           <div class="p-2 ">En cours</div>
+                        </div>
+                     </div>
+                     <div class="slidecontainer">
+                        <div>
+                           <div class="d-flex justify-content-between">
+                              <div>
+                                 <span><strong  class="h3 text-purple">34<i class="fas fa-euro-sign"></i></strong></span>
+                              </div>
+                              <div>
+                                 <span>  <img src="dist/img/in_progress.svg" class="mb-3" id="in-progress-icon"><strong  class="h3 text-purple">14<i class="fas fa-euro-sign"></i></strong></span>
+                              </div>
+                           </div>
+                           </p>
+                        </div>
+                        <div class="slidecontainer">
+                           <input type="range" min="0" max="" value="" class="slider" id="myRange">
+                           <p>
+                              <span class="ml-1 text-purple"><strong class="h2 text-purple">8</strong> minutes restantes</span>
+                           </p>
+                        </div>
+                        <div class="card-body"></div>
+                        <!-- /.d-flex -->
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- /.row -->
+      </div>
+      <!-- /.container-fluid -->
+      <!-- ./wrapper -->
+      <footer class="main-footer">
+         <strong>Copyright &copy; 2014-2021 <a
+            href="https://adminlte.io">AdminLTE.io</a>.</strong>
+         All rights reserved.
+         <div class="float-right d-none d-sm-inline-block"> <b>Version</b> 3.1.0</div>
+      </footer>
+      <!-- REQUIRED SCRIPTS -->
+      <!-- jQuery -->
+      <script src="plugins/jquery/jquery.min.js"></script>
+      <!-- Bootstrap -->
+      <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <!-- AdminLTE -->
+      <script src="dist/js/adminlte.js"></script>
+      <!-- OPTIONAL SCRIPTS -->
+      <script src="plugins/chart.js/Chart.min.js"></script>
+      <!-- AdminLTE for demo purposes -->
+      <script src="dist/js/demo.js"></script>
+      <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+      <script src="dist/js/pages/dashboard3.js"></script>
+      <!-- </div> -->
+      <!-- <script>
+         var slider = document.getElementById("myRange");
+         var output = document.getElementById("demo");
+         output.innerHTML = slider.value;
+         
+         slider.oninput = function() {
+           output.innerHTML = this.value;
+         }
+         </script> -->
+   </body>
+</html>

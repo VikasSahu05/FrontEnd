@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AdminLTE 3 | Ma messagerie</title>
+	<!-- Google Font: Source Sans Pro -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<!-- Font Awesome Icons -->
+	<link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+	<!-- IonIcons -->
+	<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<!-- Theme style -->
+	<link rel="stylesheet" href="dist/css/adminlte.css">
+	<link rel="stylesheet" href="dist/css/topMenu.css">
+	<link rel="stylesheet" href="dist/css/ma_messagerie.css">
+	<link rel="stylesheet" href="dist/css/accueil_voyant.css">
+	<link rel="stylesheet" href="dist/css/avis.css">
+	<link rel="stylesheet" href="dist/css/DemandeClient.css">
+	<!-- custom plugin -->
+	<link rel="stylesheet" href="dist/css/voyant_info.css">
+	<!-- select2 -->
+	<link rel="stylesheet" href="dist/select2/select2.min.css">
+	<!-- datatable -->
+	<link rel="stylesheet" href="dist/datatable/css/jquery.dataTables.min.css">
+</head>
+<!--
+`body` tag options:
+
+  Apply one or more of the following classes to to the body tag
+  to get the desired effect
+
+  * sidebar-collapse
+  * sidebar-mini
+-->
+
+<body class="hold-transition sidebar-mini">
+	
+	<div class="content-wrapper">
+		<!-- navbar -->
+		<!-- /.navbar -->
+		<!-- Main Sidebar Container -->
+		<aside class=""></aside>
+		<!-- Content Wrapper. Contains page content -->
+		<div class="content">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2>Mon profil</h2>
+						<!-- <div class="tab-content" id="nav-tabContent">
+							<div class="tab-pane fade show active" id="nav-1" role="tabpanel" aria-labelledby="nav-home-tab"> -->
+								<!-- <div class="row pb-5"> -->
+								<div class="card">
+									<div class="card-body">
+										<div class="row">
+											<div class="col-md-12 col-lg-6">
+												<div class="row">
+                          <div class="col-md-12">
+                            <div class="div-center">
+                              <div class="img-avatar">
+                                <img src="dist/img/avatar2.png" alt="user image"> <i class="icon fas fa-pencil-alt"></i>
+                              </div>
+                              <h4 class="text-center fw-bold">Jacques Borella</h4>
+                              <button class="btn btn-warning text-white"><i class="fas mr-1 fa-user"></i>Nouveau</button>
+                            </div>
+                          </div>
+													<div class="col-md-6">
+														<div class="form-group">
+															<label for="" class="form-label">Prénom</label>
+															<input type="text" class="form-control bg-form">
+														</div>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group">
+															<label for="" class="form-label">Nom</label>
+															<input type="text" class="form-control bg-form">
+														</div>
+													</div>
+													<div class="col-md-12">
+														<div class="form-group">
+															<label for="" class="form-label">Email</label>
+															<input type="text" class="form-control bg-form">
+														</div>
+													</div>
+              										<div class="col-md-12 d-block d-lg-none">
+														<div class="form-group mb-4">
+															<label for="" class="form-label">Description longue</label>
+															<textarea rows="3" class="form-control bg-form"></textarea>
+														</div>
+													</div>
+													<div class="col-md-8">
+														<div class="form-group">
+															<label for="" class="form-label">Adresse</label>
+															<input type="text" class="form-control bg-form">
+														</div>
+													</div>
+													<div class="col-md-4">
+														<div class="form-group">
+															<label for="" class="form-label">Code postal</label>
+															<input type="text" class="form-control bg-form">
+														</div>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group">
+															<label for="" class="form-label">Ville</label>
+															<input type="text" class="form-control bg-form">
+														</div>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group">
+															<label for="" class="form-label">Pays</label>
+															<select class="form-control bg-form">
+																<option value="">&nbsp;</option>
+															</select>
+														</div>
+													</div>
+													<div class="col-md-12">
+														<div class="form-group">
+															<label for="" class="form-label">Langues</label>
+															<select multiple data-placeholder="Choose language" id="language" data-allow-clear="1" class="form-control bg-form rounded-0">
+																<option data-country="AF">Afganistan</option>
+																<option data-country="IN">India</option>
+																<option data-country="US">America</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-12 col-lg-6">
+												<div class="row">
+													<div class="col-md-6">
+														<div class="form-group">
+															<label for="" class="form-label w-100">Téléphone</label>
+															<div class="w-100 d-flex justify-content-between">
+																<select class="country-code w-40" data-placeholder="">
+																	<option data-country="IN">91</option>
+																</select>
+																<input type="text" class="form-control bg-form w-60">
+															</div>
+														</div>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group">
+															<label for="" class="form-label w-100">Téléphone de secours</label>
+															<div class="w-100 d-flex justify-content-between">
+																<select class="country-code w-40" data-placeholder="">
+																	<option data-country="IN">91</option>
+																</select>
+																<input type="text" class="form-control bg-form w-60">
+															</div>
+														</div>
+													</div>
+													<div class="col-md-12">
+														<div class="form-group mb-4">
+															<label for="" class="form-label">Description courte (xx mots)</label>
+															<textarea rows="3" class="form-control bg-form"></textarea>
+														</div>
+													</div>
+													<div class="col-md-12 d-sm-none d-lg-block d-none">
+														<div class="form-group d-sm-none d-md-block">
+															<label for="" class="form-label">Description longue</label>
+															<textarea rows="9" class="form-control bg-form"></textarea>
+														</div>
+													</div>
+                          <div class="col-md-12 d-sm-none d-lg-block d-none">
+												    	<button type="button" class="btn btn-success btn-block">Votre demande a bien été soumise</button>
+												</div>
+                        <div class="col-md-12 d-flex justify-content-end mt-4">
+                          <div class="d-sm-none d-md-block d-none d-sm-block">
+                          <button type="button" class="btn btn-purple text-white"><i class="far fa-save"></i>  Soumettre la mise à jour</button>
+                        </div>
+                        </div>
+                        <div class="col-md-12 d-flex justify-content-end mt-4">
+                          <div class="d-block d-sm-none d-none d-sm-block d-md-none">
+                          <button class="btn btn-purple text-white"><i class="far fa-save"></i>  Enregistrer</button>
+                        </div>
+                        </div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
+							<div class="tab-pane fade" id="nav-3" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+							<div class="tab-pane fade" id="nav-4" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+						<!-- </div> -->
+					<!-- </div> -->
+				</div>
+			</div>
+			<!-- /.container-fluid -->
+		</div>
+		<!-- /.content-wrapper -->
+		<!-- Main Footer -->
+		<footer class="main-footer"> <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
+			All rights reserved.
+			<div class="float-right d-none d-sm-inline-block"> <b>Version</b> 3.1.0</div>
+		</footer>
+		</div>
+		<!-- ./wrapper -->
+		<!-- REQUIRED SCRIPTS -->
+		<!-- jQuery -->
+		<script src="plugins/jquery/jquery.min.js"></script>
+		<!-- Bootstrap -->
+		<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<!-- AdminLTE -->
+		<script src="dist/js/adminlte.js"></script>
+		<!-- OPTIONAL SCRIPTS -->
+		<script src="plugins/chart.js/Chart.min.js"></script>
+		<!-- AdminLTE for demo purposes -->
+		<script src="dist/js/demo.js"></script>
+		<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+		<script src="dist/js/pages/dashboard3.js"></script>
+		<!-- datatable -->
+		<script src="dist/datatable/js/jquery.dataTables.min.js"></script>
+		<!-- custom js -->
+    <script src="dist/select2/select2.min.js"></script>
+    <!-- custom js -->
+    <script>
+         $(function () {
+            function languageState (state) {
+                if (!state.id) {
+                    return state.text;
+                }
+                var baseUrl = "dist/select2/flags";
+                var $state = $(
+                '<span class="select2-option"><img src="' + baseUrl + '/' + $(state.element).attr('data-country').toLowerCase() + '.svg" class="img-flag" /> <span class="option-text">' + state.text + '</span></span>'
+                );
+                return $state;
+            };
+
+
+            function countryCode (state) {
+                if (!state.id) {
+                    return state.text;
+                }
+                var baseUrl = "dist/select2/flags";
+                var $state = $(
+                '<span class="select2-option"><img src="' + baseUrl + '/' + $(state.element).attr('data-country').toLowerCase() + '.svg" class="img-flag" /> <span class="option-middle">' + state.text + '</span></span>'
+                );
+                return $state;
+            };
+
+            $('#language').select2({
+                templateResult: languageState,
+                templateSelection: languageState
+            });
+
+            $('.country-code').select2({
+                templateResult: countryCode,
+                templateSelection: countryCode
+            })
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,920 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Creer un rendez-vous</title>
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="file:///E:/gitProjects/wazoom_Pef/build/css/bootstrap.min.css">
+    <link rel="stylesheet" href="file:///E:/gitProjects/wazoom_Pef/build/js/bootstrap.min.js">
+    <link rel="stylesheet" href="dist/css/adminlte.css">
+    <link rel="stylesheet" href="dist/css/topMenu.css">
+    <link rel="stylesheet" href="dist/css/avis.css">
+    <link rel="stylesheet" href="dist/css/PL_S_P2_créer_rendez_vous.css">
+
+</head>
+
+<body class="hold-transition sidebar-mini">
+    <ul class="nav nav-pills nav-sidebar flex-column mt-3" data-widget="treeview" role="menu" data-accordion="false"></ul>
+    <a class="" data-widget="pushmenu" href="#" role="button">
+        <div class=" float-right pr-3 bar-div  ">
+            <i class="fas fa-bars md-bars d-block d-sm-block d-lg-none"></i>
+        </div>
+
+        <a class="d-block d-sm-none">
+            <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class=" imageUser img-size-80 w-5 h-5 img-circle ml-4">
+            <span><b class="col-12 text-dark">Bonjour, Esteban</b></span>
+        </a>
+
+    </a>
+
+    </ul>
+    <div class="wrapper">
+        <div class="md-logo d-flex justify-content-center">
+            <img class="edit-an-appointment-Logo img-fluid max-width:auto height:auto; d-none d-md-block d-sm-block  d-lg-none" src="dist/img/logo-esteban-frederic.png" id="md-logo" alt="">
+        </div>
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light h-10">
+
+            <!-- Left navbar links -->
+            <ul class="navbar-nav d-none d-sm-block ">
+                <li class="nav-item">
+                    <a class="nav-link btn-default w-60 h-60 text-white  modePauseDivision mt-2" style="background-color:#58468c; " data-widget="playmood" href="#" role="button">
+                        <div class="row ">
+                            <div class="col-3 playButton d-flex align-items-center">
+                                <i class="fas iconPlay fa-play fa-1x"></i>
+                            </div>
+                            <div class="col-9 ">
+                                <div class="modePause ">
+                                    <span>Mode pause</span>
+                                </div>
+                                <div class="time">
+                                    <strong>08:52:12</strong>
+                                </div>
+                            </div>
+
+                        </div>
+                    </a>
+
+
+                </li>
+
+
+            </ul>
+
+
+            <!-- Right navbar links -->
+
+            <ul class="navbar-nav ml-auto ">
+
+                <!-- Notifications Dropdown Menu -->
+
+                <li class="nav-item dropdown d-none d-sm-block">
+                    <a class="nav-link mt-3" data-toggle="dropdown" href="#">
+                        <img src="dist/img/bell.svg" class="iconSize">
+                        <!-- <i class="far fa-bell  text-purple iconSize "></i> -->
+                        <span class="badge  badge-pill navbar-badge mt-3 mr-2 text-white" style="background-color:#F34541"><b>6</b></span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right" id="dropdown">
+                        <!-- <div class="dropdown-divider"></div> -->
+                        <!-- <a href="#" class="dropdown-item"> -->
+                        <div class="card card-widget" id="msg-card">
+                            <div>
+                                <div>
+                                    <img class="img-circle elevation-2" id="person-msg-img" src="dist/img/imageperson.png" alt="User Avatar">
+                                </div>
+                                <h6 class="card-h6">Emma Deschamps<span class="text-muted float-right"><img
+                                            src="dist/img/cancel.svg" alt="User Avatar" id="btn-img-logo"></span></h6>
+                                <p id="para-msg">Odio tellus neque varius erat augue morbi...<span style="float: right;"><a href="#" class="nav-link"> <span
+                                                class="float-right badge"
+                                                style="font-size:12px;margin-top: -5px;margin-right: -8px;">11:23</span>
+                                    </a>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card card-widget" id="msg-card">
+                            <div>
+                                <div>
+                                    <img class="img-circle elevation-2" id="person-msg-img" src="dist/img/imageperson.png" alt="User Avatar">
+                                </div>
+                                <h6 class="card-h6">Emma Deschamps<span class="text-muted float-right"><img
+                                            src="dist/img/cancel.svg" alt="User Avatar" id="btn-img-logo"></span></h6>
+                                <p id="para-msg">Odio tellus neque varius erat augue morbi...<span style="float: right;"><a href="#" class="nav-link"> <span
+                                                class="float-right badge"
+                                                style="font-size:12px;margin-top: -5px;margin-right: -8px;">11:23</span>
+                                    </a>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card card-widget" id="msg-card">
+                            <div>
+                                <div>
+                                    <img class="img-circle elevation-2" id="person-msg-img" src="dist/img/imageperson.png" alt="User Avatar">
+                                </div>
+
+                                <h6 class="card-h6">Emma Deschamps<span class="text-muted float-right"><img
+                                            src="dist/img/cancel.svg" alt="User Avatar" id="btn-img-logo"></span></h6>
+                                <p id="para-msg">Odio tellus neque varius erat augue morbi...<span style="float: right;"><a href="#" class="nav-link"> <span
+                                                class="float-right badge"
+                                                style="font-size:12px;margin-top: -5px;margin-right: -8px;">11:23</span>
+                                    </a>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card card-widget" id="msg-card">
+                            <div>
+                                <div>
+                                    <img class="img-circle elevation-2" id="person-msg-img" src="dist/img/imageperson.png" alt="User Avatar">
+                                </div>
+                                <h6 class="card-h6">Emma Deschamps<span class="text-muted float-right"><img
+                                            src="dist/img/cancel.svg" alt="User Avatar" id="btn-img-logo"></span></h6>
+                                <p id="para-msg">Odio tellus neque varius erat augue morbi...<span style="float: right;"><a href="#" class="nav-link"> <span
+                                                class="float-right badge"
+                                                style="font-size:12px;margin-top: -5px;margin-right: -8px;">11:23</span>
+                                    </a>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- </a> -->
+                        <!-- <div class="dropdown-divider"></div> -->
+                        <div class="card card-widget" id="msg-card">
+                            <div>
+                                <div>
+                                    <img class="img-circle elevation-2" id="person-msg-img" src="dist/img/imageperson.png" alt="User Avatar">
+                                </div>
+                                <h6 class="card-h6">Emma Deschamps<span class="text-muted float-right"><img
+                                            src="dist/img/cancel.svg" alt="User Avatar" id="btn-img-logo"></span></h6>
+                                <p id="para-msg">Odio tellus neque varius erat augue morbi...<span style="float: right;"><a href="#" class="nav-link"> <span
+                                                class="float-right badge"
+                                                style="font-size:12px;margin-top: -5px;margin-right: -8px;">11:23</span>
+                                    </a>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card card-widget" id="msg-card">
+                            <div>
+                                <div>
+                                    <img class="img-circle elevation-2" id="person-msg-img" src="dist/img/imageperson.png" alt="User Avatar">
+                                </div>
+                                <h6 class="card-h6">Emma Deschamps<span class="text-muted float-right"><img
+                                            src="dist/img/cancel.svg" alt="User Avatar" id="btn-img-logo"></span></h6>
+                                <p id="para-msg">Odio tellus neque varius erat augue morbi...<span style="float: right;"><a href="#" class="nav-link"> <span
+                                                class="float-right badge"
+                                                style="font-size:12px;margin-top: -5px;margin-right: -8px;">11:23</span>
+                                    </a>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div style="padding-bottom: 10px;">
+                            <span id="span-msg-btn"><img src="dist/img/white_trash.svg" alt="User Avatar"
+                                    id="btn-img-logo">Effacer toutes les notifications</span>
+                        </div>
+                </li>
+
+
+                <!-- Message Search -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link mt-3 d-none d-sm-block" data-toggle="dropdown" href="#">
+                        <img src="dist/img/email.svg" class="iconSize">
+                        <!-- <i class="far fa-bell  text-purple iconSize "></i> -->
+                        <span class="badge  badge-pill navbar-badge mt-3 mr-2 text-white" style="background-color:#F34541"><b>6</b></span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right" id="dropdown">
+                        <!-- <div class="dropdown-divider"></div> -->
+                        <!-- <a href="#" class="dropdown-item"> -->
+                        <div class="card card-widget" id="msg-card">
+                            <div>
+                                <div>
+                                    <img class="img-circle elevation-2" id="person-msg-img" src="dist/img/imageperson.png" alt="User Avatar">
+                                </div>
+                                <h6 class="card-h6">Emma Deschamps<span class="text-muted float-right">11:23</span></h6>
+                                <p id="para-msg">Odio tellus neque varius erat augue morbi...<span style="float: right;"><a href="#" class="nav-link"> <span
+                                                class="float-right badge"
+                                                style="background-color:#58468c;color:white;margin-top: -7px;">2</span>
+                                    </a>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- </a> -->
+                        <!-- <div class="dropdown-divider"></div> -->
+                        <div class="card card-widget" id="msg-card">
+                            <div>
+                                <div>
+                                    <img class="img-circle elevation-2" id="person-msg-img" src="dist/img/imageperson.png" alt="User Avatar">
+                                </div>
+                                <h6 class="card-h6">Emma Deschamps<span class="text-muted float-right">11:23</span></h6>
+                                <p id="para-msg">Odio tellus neque varius erat augue morbi...<span style="float: right;"><a href="#" class="nav-link"> <span
+                                                class="float-right badge"
+                                                style="background-color:#58468c;color:white;margin-top: -7px;">1</span>
+                                    </a>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card card-widget" id="msg-card">
+                            <div>
+                                <div>
+                                    <img class="img-circle elevation-2" id="person-msg-img" src="dist/img/imageperson.png" alt="User Avatar">
+                                </div>
+                                <h6 class="card-h6">Bertrand Lemoine<span class="text-muted float-right">11:23</span></h6>
+                                <p id="para-msg">Odio tellus neque varius erat augue morbi...<span style="float: right;"><a href="#" class="nav-link">
+                                        </a></span></p>
+                            </div>
+                        </div>
+                        <div style="padding-bottom: 10px;">
+                            <span id="span-msg-btn" style="padding-left: 69px !important;">Voir tous mes messages<img
+                                    src="dist/img/right_msg_arrow.svg" alt="User Avatar" id="btn-img-logo"
+                                    style="padding-left: 10px !important; padding-top: 4px !important;"></span>
+                        </div>
+                </li>
+
+                <li class="nav-item d-none d-sm-block">
+                    <a class="nav-link " data-widget="fullscreen" href="#">
+                        <div class=" helloUser h-auto col-md-2 mt-3">
+                            Bonjour,<strong>Esteban</strong>
+                        </div>
+                    </a>
+                    <a class="buttonSuccess  nav-link btn btn-success  h-auto text-white  align-text-top" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+                        En ligne <span class="fas fa-chevron-down fa-1x ml-1 "></span>
+                    </a>
+
+                </li>
+
+                <li class="nav-item d-none d-sm-block">
+                    <a>
+                        <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class=" imageUser img-size-50 w-5 h-5 img-circle ml-1 mr-3 mt-4">
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+        <!-- /.navbar -->
+
+
+        <!-- Main Sidebar Container -->
+        <aside class="main-sidebar sidebar-light-primary elevation-4">
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Sidebar Menu -->
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                        <li class="nav-item">
+                            <div>
+                                <a class="nav-link " data-widget="pushmenu" href="#" role="button">
+                                    <div class="small-box float-right left-arrow">
+                                        <i class="fas fa-arrow-left"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="ml-4 mb-3  ">
+                                <img class="edit-an-appointment-Logo img-fluid max-width:auto height:auto;" src="dist/img/logo-esteban-frederic.png" alt="">
+                            </div>
+                            <a href="#" class="nav-link ">
+                                <p>
+                                    <img src="dist/img/home.png" alt=""> Accueil
+                                </p>
+                            </a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <img src="dist/img/phone.png" alt="">
+                                <p>
+                                    Appels
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="./index.html" class="nav-link">
+                                        <p>Téléphonique</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./index2.html" class="nav-link">
+                                        <p>Chat</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./index3.html" class="nav-link active">
+                                        <p>Service client</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <img src="dist/img/planning.png" alt="">
+                                <p>
+                                    Planning
+                                    <i class="fas fa-angle-left right"></i>
+
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="pages/layout/top-nav.html" class="nav-link">
+                                        <p>Voyants</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                                        <p>Service client</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <img src="dist/img/user.png" alt="">
+                                <p>
+                                    Rendez-vous
+                                </p>
+                            </a>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    <img src="dist/img/user.png" alt="">
+                                    <p>
+                                        Voyance mails
+
+                                    </p>
+                                </a>
+
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <img src="dist/img/user.png" alt="">
+                                        <p>
+                                            Utilisateurs
+                                            <i class="fas fa-angle-left right"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="pages/forms/general.html" class="nav-link">
+                                                <p>Administrateurs</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="pages/forms/advanced.html" class="nav-link">
+                                                <p>Voyants</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="pages/forms/validation.html" class="nav-link">
+                                                <p>Validation</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <img src="dist/img/Support.png" alt="">
+                                        <p>
+                                            Support
+                                            <i class="fas fa-angle-left right"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="pages/tables/simple.html" class="nav-link">
+                                                <p>Demande clients</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="pages/tables/data.html" class="nav-link">
+                                                <p>Demande voyants</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="pages/calendar.html" class="nav-link">
+                                        <img src="dist/img/Commandes.png" alt="">
+                                        <p>
+                                            Commandes
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/gallery.html" class="nav-link">
+                                        <img src="dist/img/Consultations.png" alt="">
+                                        <p>
+                                            Consultations
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/kanban.html" class="nav-link">
+                                        <img src="dist/img/Abonnements.png" alt="">
+                                        <p>
+                                            Abonnements
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/kanban.html" class="nav-link">
+                                        <img src="dist/img/Comptabilite.png" alt="">
+                                        <p>
+                                            Comptabilité
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <img src="dist/img/Avis.png" alt="">
+                                        <p>
+                                            Avis
+                                            <i class="fas fa-angle-left right"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="pages/mailbox/mailbox.html" class="nav-link">
+                                                <p>Gestion des avis</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="pages/mailbox/compose.html" class="nav-link">
+                                                <p>Gestion des avis</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/kanban.html" class="nav-link">
+                                        <img src="dist/img/Reversements.png" alt="">
+                                        <p>
+                                            Reversements
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <img src="dist/img/Configuration.png" alt="">
+                                        <p>
+                                            Configuration
+                                            <i class="fas fa-angle-left right"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="pages/examples/invoice.html" class="nav-link">
+                                                <p>Créer une commande</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="pages/examples/profile.html" class="nav-link">
+                                                <p>Code promo</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="pages/examples/e-commerce.html" class="nav-link">
+                                                <p>Forfaits</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="pages/examples/projects.html" class="nav-link">
+                                                <p>Contenu</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="pages/examples/project-add.html" class="nav-link">
+                                                <p>Demandes de modifications voyants
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="pages/examples">
+                                                <p>Configuration du cabinet</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                </nav>
+                <!-- /.sidebar-menu -->
+            </div>
+            <!-- /.sidebar -->
+        </aside>
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-12 content-editAnappointment">
+                            <h1 class="m-0">Créer un rendez-vous</h1>
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-sm-6">
+                            <ol class="breadcrumb float-sm-right">
+                                <li class="breadcrumb-item">
+                                    <a href="#"></a>
+                                </li>
+                                <li class="breadcrumb-item active"></li>
+                            </ol>
+                        </div>
+                        <!-- /.col -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container-fluid -->
+            </div>
+            <!-- /.content-header -->
+            <!-- Main content -->
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card col-sm-12 col-md-12">
+                                <div class="card-header border-0">
+                                    <div class="d-flex justify-content-center">
+                                        <h3 class="card-title"><b class="">Choix du client</b></h3>
+                                    </div>
+                                </div>
+                                <div class="clearflix">
+                                    <div class="col-sm-11 col-md-11 col-lg-11 mx-auto ">
+                                        <div class="input-group mb-3 input-control">
+                                            <div class="input-group-text">
+                                                <i class="fas fa-search"></i>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Nom du client">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body col-md-12 col-sm-12">
+                                    <div class="d-flex">
+                                        <div class="col-sm-12 col-md-12 col-lg-12">
+                                            <div class="card card-warning shadow">
+                                                <!-- /.card-header -->
+                                                <div class="card-body Customer-active">
+                                                    <span class="d-flex justify-content-between" >
+                                                         <img src="dist/img/useractive.png" class="img-user" alt=""><b class="text-left ml-0">Eleanor Pena</b>
+
+                                                        <!-- <span>
+                                                            <b class="pr-5">
+                                                            Eleanor Pena
+                                                            </b>
+                                                        </span> -->
+                                                    <img src="dist/img/tick.png" class="img-active mt-1" alt="">
+                                                    </span>
+                                                </div>
+                                                <!-- /.card-body -->
+                                            </div>
+                                            <!-- /.card -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="col-md-12">
+                                            <div class="card card-warning shadow">
+                                                <!-- /.card-header -->
+                                                <div class="card-body">
+                                                    <span class="d-flex justify-content-between">
+                                        <img src="dist/img/useractive.png" class="img-user" alt="">
+                                        <b class="t">Eleanor Pena</b></span>
+                                                    <img src="dist/img/tick.png" class="img-active mt-1" alt="">
+                                                    </span>
+                                                </div>
+                                                <!-- /.card-body -->
+                                            </div>
+                                            <!-- /.card -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="col-md-12">
+                                            <div class="card card-warning shadow">
+                                                <!-- /.card-header -->
+                                                <div class="card-body">
+                                                    <span class="d-flex justify-content-between ">
+                                        <img src="dist/img/useractive.png" class="img-user" alt="">
+                                        <span><b class="pr-5">Eleanor Pena</b></span>
+                                                    <img src="dist/img/tick.png" class="img-active mt-1" alt="">
+                                                    </span>
+                                                </div>
+                                                <!-- /.card-body -->
+                                            </div>
+                                            <!-- /.card -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="col-md-12">
+                                            <div class="card card-warning shadow">
+                                                <!-- /.card-header -->
+                                                <div class="card-body">
+                                                    <span class="d-flex justify-content-center ">
+                                        <span><b class=" color-primary">Voir plus</b>
+                                        <img src="dist/img/caret1.png" class="img-caret mt-1" alt="">
+                                        </span>
+
+                                                    </span>
+                                                </div>
+                                                <!-- /.card-body -->
+                                            </div>
+                                            <!-- /.card -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header border-0">
+                                    <div class="d-flex justify-content-center">
+                                        <h3 class="card-title"><b>Choix du voyant</b></h3>
+                                    </div>
+                                </div>
+                                <div class="clearflix">
+                                    <div class="col-sm-11 col-md-11 col-lg-11 mx-auto ">
+                                        <div class="input-group mb-3 input-control">
+                                            <div class="input-group-text">
+                                                <i class="fas fa-search"></i>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Nom du voyant">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="col-md-12">
+                                            <div class="card card-warning shadow">
+                                                <!-- /.card-header -->
+                                                <div class="card-body Customer-active ">
+                                                    <span class="d-flex justify-content-between ">
+                                        <img src="dist/img/useractive.png" class="img-user" alt="">
+                                        <span><b class="pr-5">Eleanor Pena</b></span>
+                                                    <img src="dist/img/tick.png" class="img-active mt-1" alt="">
+                                                    </span>
+                                                </div>
+                                                <!-- /.card-body -->
+                                            </div>
+                                            <!-- /.card -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="col-md-12">
+                                            <div class="card card-warning shadow">
+                                                <!-- /.card-header -->
+                                                <div class="card-body">
+                                                    <span class="d-flex justify-content-between ">
+                                        <img src="dist/img/useractive.png" class="img-user" alt="">
+                                        <span><b class="pr-5">Eleanor Pena</b></span>
+                                                    <img src="dist/img/tick.png" class="img-active mt-1" alt="">
+                                                    </span>
+                                                </div>
+                                                <!-- /.card-body -->
+                                            </div>
+                                            <!-- /.card -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="col-md-12">
+                                            <div class="card card-warning shadow">
+                                                <!-- /.card-header -->
+                                                <div class="card-body">
+                                                    <span class="d-flex justify-content-between ">
+                                        <img src="dist/img/useractive.png" class="img-user" alt="">
+                                        <span><b class="pr-5">Eleanor Pena</b></span>
+                                                    <img src="dist/img/tick.png" class="img-active mt-1" alt="">
+                                                    </span>
+                                                </div>
+                                                <!-- /.card-body -->
+                                            </div>
+                                            <!-- /.card -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <div class="col-md-12">
+                                            <div class="card card-warning shadow">
+                                                <!-- /.card-header -->
+                                                <div class="card-body">
+                                                    <span class="d-flex justify-content-center ">
+                                        <span><b class=" color-primary">Voir plus</b>
+                                            <img src="dist/img/caret1.png" class="img-caret mt-1" alt="">
+                                        </span>
+
+                                                    </span>
+                                                </div>
+                                                <!-- /.card-body -->
+                                            </div>
+                                            <!-- /.card -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card shadow-lg">
+                                <h3 class="card-title align-self-center mt-3"><b>Type de voyance</b></h3>
+                                <div class="card-body ">
+                                    <div class="clearfix">
+                                        <span class="float-left pl-3">
+                        <img src="dist/img/phone3.png" alt="" class="">
+                            <div>
+                                <span>Tel</span>
+                                    </div>
+                                    </span>
+                                    <span class="float-right pr-4">
+                        <img src="dist/img/envelope1.png" alt="" class="">
+                        <div>
+                            <span>Tchat</span>
+                                </div>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" dureeDiv col-md-12 col-lg-12">
+                        <div class="card shadow-lg">
+                            <h3 class="card-title align-self-center mt-3"><b>Durée</b></h3>
+                            <div class="row">
+                            <div class="card-body d-flex">
+                                <div class="justify-content-between">
+                                   
+                                    <span class="dropdown">
+                                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"aria-haspopup="true" aria-expanded="false">
+                                            01
+                                            </button>
+                                            <div class="dropdown-menu edit-an-appointment-Logo-dropdown"        aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">01</a>
+                                                <a class="dropdown-item" href="#">02</a>
+                                                <a class="dropdown-item" href="#">03</a>
+                                            </div>
+                                        </span>
+                                        <span class="hour mt-2">Heures</span>
+                                        
+                                    <span class="dropdown edit-an-appointment-Logo-dropdown">
+                                            <button class="btn  btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false">
+                                            01
+                                            </button>
+                                            <div class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item" href="#">01</a>
+                                                <a class="dropdown-item" href="#">02</a>
+                                                <a class="dropdown-item" href="#">03</a>
+                                            </div>
+                                            <span class="minute">Minute</span>
+                                    </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.card -->
+
+                    </div>
+
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 col-12 ">
+                    <div class="card clearfix">
+                        <span class="pt-3">
+                        <i class="fas fa-chevron-left float-left pl-5 tableleftArrow"></i>
+                        <i class="fas fa-chevron-right float-right pr-5 tablerightArrow"></i>
+                        </span>
+                        <div class="table-responsive appointment-Table table-responsive-sm">
+                            <table class="gig mr-5 mb-5 text-centre">
+
+                                <thead>
+
+                                    <tr class="appointment-Table-row justify-content-center">
+                                        <th scope="col" class="header">Lundi
+                                            <p>22 mars</p>
+                                        </th>
+                                        <th scope="col" class="header">Mardi
+                                            <p>23 mars</p>
+                                        </th>
+                                        <th scope="col" class="header">Mercredi
+                                            <p>24 mars</p>
+                                        </th>
+                                        <th scope="col" class="header">Jeudi
+                                            <p>25 mars</p>
+                                        </th>
+                                        <th scope="col" class="header">Vendredi
+                                            <p>26 mars</p>
+                                        </th>
+                                        <th scope="col" class="header">Samedi
+                                            <p>27 mars</p>
+                                        </th>
+                                        <th scope="col" class="header">Dimanche
+                                            <p>28 mars</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="time ">14:30</td>
+                                        <td class="Null">--</td>
+                                        <td class="time">14:30</td>
+                                        <td class="Null">--</td>
+                                        <td class="time">14:30</td>
+                                        <td class="Null">--</td>
+                                        <td class="time">14:30</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="time">14:30</td>
+                                        <td class="Null"> --</td>
+                                        <td class="time">14:30</td>
+                                        <td class="Null"> --</td>
+                                        <td class="time1">14:30</td>
+                                        <td class="Null">--</td>
+                                        <td class="time">14:30</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="time">14:30</td>
+                                        <td class="Null">--</td>
+                                        <td class="time">14:30</td>
+                                        <td class="Null">--</td>
+                                        <td class="time">14:30</td>
+                                        <td class="Null">--</td>
+                                        <td class="time">14:30</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="time">14:30</td>
+                                        <td class="Null">--</td>
+                                        <td class="time">14:30</td>
+                                        <td class="Null">--</td>
+                                        <td class="time">14:30</td>
+                                        <td class="Null">--</td>
+                                        <td class="time">14:30</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <hr class="mb-1 pl-4 line">
+                        <div class="text-center pb-3  ">
+                            <span class="text-purple ">
+                                    <b class="col-sm-12 col-12">Voir plus d’horaires</b>
+                                        <i class="fas fa-chevron-down table-down"></i>
+                                </span>
+                        </div>
+                        <div class="d-flex justify-content-center text-center">
+                            <div class="small-box Annuler-box mr-5 border border-danger" id=info-Box1>
+                                <span class="text-danger col-12">
+                                        <i class="fas fa-times mr-2"></i>
+                                        <span class="col-sm-12 col-12"> le rendez-vous</span>
+                                </span>
+                            </div>
+                            <div class="small-box Déplacer-box border border-purpal" id=info-Box2>
+                                <i class="fas fa-history mr-2"></i>
+                                <span class="col-sm-12 col-12"> Déplacer le rendez-vous</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /.content-wrapper -->
+
+            <!-- Control Sidebar -->
+            <aside class="control-sidebar control-sidebar-dark">
+                <!-- Control sidebar content goes here -->
+            </aside>
+            <!-- /.control-sidebar -->
+            <!-- Main Footer -->
+            \</div>
+        <!-- ./wrapper -->
+        <!-- REQUIRED SCRIPTS -->
+        <!-- jQuery -->
+        <script src="plugins/jquery/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- AdminLTE -->
+        <script src="dist/js/adminlte.js"></script>
+
+        <!-- OPTIONAL SCRIPTS -->
+        <script src="plugins/chart.js/Chart.min.js"></script>
+        <!-- AdminLTE for demo purposes -->
+        <script src="dist/js/demo.js"></script>
+        <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+        <script src="dist/js/pages/dashboard3.js"></script>
+</body>
+
+</html>
